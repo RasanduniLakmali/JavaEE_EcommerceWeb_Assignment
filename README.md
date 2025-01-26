@@ -7,13 +7,15 @@ This project is a fully functional e-commerce web application built using Java E
 User-friendly interface: Allows users to easily browse and purchase products online.
 Administrator features: Provides tools for managing products, categories, orders, and user accounts.
 Secure checkout: Ensures a safe and secure online shopping experience.
-Technologies Used
+
+**Technologies Used**
 
 Java EE
 JDBC Connection Pooling
 JSP
-[Add any other technologies used, e.g., Servlet, Database (MySQL, PostgreSQL)]
-Project Goals
+
+
+**Project Goals**
 
 Learn and apply the concepts of Java EE.
 Develop a practical and useful e-commerce application.
