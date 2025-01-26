@@ -31,3 +31,9 @@ Develop a practical and useful e-commerce application.
 
 **Login Pge**
 ![image alt](https://github.com/RasanduniLakmali/JavaEE_EcommerceWeb_Assignment/blob/master/Screenshot%202025-01-26%20190352.png?raw=true)
+
+
+
+
+**Cart Pge**
+![image alt](https://github.com/RasanduniLakmali/JavaEE_EcommerceWeb_Assignment/blob/master/Screenshot%202025-01-26%20201818.png?raw=true)
