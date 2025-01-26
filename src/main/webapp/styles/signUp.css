@@ -1,0 +1,21 @@
+#form_rec{
+    border: 2px gray solid;
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#signUp_form{
+    position: absolute;
+    left: 60px;
+    top: 90px;
+}
+#signUp_img{
+      position: absolute;
+      right: 80px;
+      top: 100px;
+}

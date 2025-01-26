@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+  <session-factory>
+
+    <!-- Database Connection Properties -->
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/ecommerce</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">Ijse@123</property>
+
+    <!-- Hibernate Dialect for MySQL -->
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+    <!-- C3P0 Connection Pooling Properties -->
+    <property name="hibernate.c3p0.min_size">5</property> <!-- Minimum Connections in Pool -->
+    <property name="hibernate.c3p0.max_size">20</property> <!-- Maximum Connections in Pool -->
+    <property name="hibernate.c3p0.timeout">1800</property> <!-- Idle Connection Timeout in seconds -->
+    <property name="hibernate.c3p0.max_statements">50</property> <!-- Prepared Statement Cache Size -->
+    <property name="hibernate.c3p0.idle_test_period">300</property> <!-- Idle Connection Check Period -->
+    <property name="hibernate.c3p0.acquire_increment">5</property> <!-- Connections Increment -->
+    <property name="hibernate.c3p0.validate">true</property> <!-- Validate Connections -->
+
+    <!-- Hibernate Behavior -->
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+
+    <!-- Register Annotated Entities -->
+    <mapping class="lk.ijse.assignment_javaee.entity.User"/>
+    <mapping class="lk.ijse.assignment_javaee.entity.Category"/>
+    <mapping class="lk.ijse.assignment_javaee.entity.Product"/>
+    <mapping class="lk.ijse.assignment_javaee.entity.Cart"/>
+    <mapping class="lk.ijse.assignment_javaee.entity.Orders"/>
+    <mapping class="lk.ijse.assignment_javaee.entity.Order_Detail"/>
+
+  </session-factory>
+</hibernate-configuration>

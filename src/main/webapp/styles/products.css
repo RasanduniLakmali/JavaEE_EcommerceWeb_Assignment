@@ -1,0 +1,13 @@
+#header1{
+    background-color: #dafaff;
+}
+.product-item:hover .product-img img {
+    transform: scale(1.2);
+}
+#search_box{
+    position: relative;
+    left: 600px;
+}
+.hidden {
+    display: none;
+}

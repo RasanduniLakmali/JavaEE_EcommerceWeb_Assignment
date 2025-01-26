@@ -1,0 +1,41 @@
+.category-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.category-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.category-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.category-title {
+    background-color: #f8f9fa;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.category-card {
+    width: 80%; /* Decrease width */
+    height: 350px; /* Increase height */
+    margin: 0 auto; /* Center the card horizontally */
+}
+
+.category-img {
+    width: 100%; /* Ensure the image fits the card's width */
+    height: 80%; /* Adjust the height to match the card's proportions */
+    object-fit: cover; /* Crop the image without distorting */
+    border-radius: 8px; /* Add rounded corners */
+}
+
+.category-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+.hidden {
+    display: none;
+}
